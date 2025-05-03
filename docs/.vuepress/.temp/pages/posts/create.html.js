@@ -1,16 +1,3 @@
 import comp from "D:/Users/Natsumi/Documents/GitHub/littlecat/docs/.vuepress/.temp/pages/posts/create.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/create.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2022-01-31T00:00:00.000Z\",\"category\":[\"History\"],\"tag\":[\"Create\"],\"archive\":true},\"headers\":[],\"git\":{},\"filePathRelative\":\"posts/create.md\",\"excerpt\":\"<p>今天是这个博客创建的日子</p>\\n\"}")
+const data = JSON.parse("{\"path\":\"/posts/create.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2022-01-31T00:00:00.000Z\",\"category\":[\"History\"],\"tag\":[\"Create\"],\"archive\":true},\"headers\":[],\"git\":{\"updatedTime\":1746290395000,\"contributors\":[{\"name\":\"Roren\",\"username\":\"Roren\",\"email\":\"RorenNatsumi@outlook.com\",\"commits\":1,\"url\":\"https://github.com/Roren\"}],\"changelog\":[{\"hash\":\"cfe609e8811196478988d81ef5f824669d937d85\",\"time\":1746290395000,\"email\":\"RorenNatsumi@outlook.com\",\"author\":\"Roren\",\"message\":\"push tongtong\"}]},\"filePathRelative\":\"posts/create.md\",\"excerpt\":\"<p>今天是这个博客创建的日子</p>\\n\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

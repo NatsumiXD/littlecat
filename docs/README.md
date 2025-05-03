@@ -1,6 +1,6 @@
 ---
 home: true
-title: 潘思潼
+title: 潘思潼 or 麻辣猫猫头tt
 heroImage: ./logo.jpg
 actions:
   - text: 从这开始

@@ -1,13 +1,2 @@
 export const categoriesMap = JSON.parse("{\"category\":{\"/\":{\"path\":\"/category/\",\"map\":{\"History\":{\"path\":\"/category/history/\",\"indexes\":[0]},\"Category Sticky\":{\"path\":\"/category/category-sticky/\",\"indexes\":[1]},\"Test Article\":{\"path\":\"/category/test-article/\",\"indexes\":[2]},\"关于\":{\"path\":\"/category/%E5%85%B3%E4%BA%8E/\",\"indexes\":[3]}}}},\"tag\":{\"/\":{\"path\":\"/tag/\",\"map\":{\"Create\":{\"path\":\"/tag/create/\",\"indexes\":[0]},\"tag E\":{\"path\":\"/tag/tag-e/\",\"indexes\":[1]},\"Test\":{\"path\":\"/tag/test/\",\"indexes\":[2]},\"关于\":{\"path\":\"/tag/%E5%85%B3%E4%BA%8E/\",\"indexes\":[3]}}}}}");
 
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept();
-  if (__VUE_HMR_RUNTIME__.updateBlogCategory)
-    __VUE_HMR_RUNTIME__.updateBlogCategory(categoriesMap);
-}
-
-if (import.meta.hot)
-  import.meta.hot.accept(({ categoriesMap }) => {
-    __VUE_HMR_RUNTIME__.updateBlogCategory(categoriesMap);
-  });
-
