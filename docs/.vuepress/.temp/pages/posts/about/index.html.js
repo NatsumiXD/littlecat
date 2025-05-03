@@ -1,0 +1,16 @@
+import comp from "D:/Users/Natsumi/Documents/GitHub/littlecat/docs/.vuepress/.temp/pages/posts/about/index.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/about/\",\"title\":\"关于潘思潼\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2025-05-04T00:00:00.000Z\",\"category\":[\"关于\"],\"tag\":[\"关于\"]},\"headers\":[{\"level\":2,\"title\":\"喜好\",\"slug\":\"喜好\",\"link\":\"#喜好\",\"children\":[]},{\"level\":2,\"title\":\"情感经历\",\"slug\":\"情感经历\",\"link\":\"#情感经历\",\"children\":[]},{\"level\":2,\"title\":\"学校\",\"slug\":\"学校\",\"link\":\"#学校\",\"children\":[]},{\"level\":2,\"title\":\"家庭\",\"slug\":\"家庭\",\"link\":\"#家庭\",\"children\":[]},{\"level\":2,\"title\":\"社交帐号\",\"slug\":\"社交帐号\",\"link\":\"#社交帐号\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"posts/about/readme.md\",\"excerpt\":\"\\n<h2>喜好</h2>\\n<p>喜欢谈恋爱！喜欢被人爱的感觉！喜欢TS讨厌男娘！郭楠滚！</p>\\n<h2>情感经历</h2>\\n<p>从初二开始谈了第一个男朋友，一直到高中目前已经谈过十数个男朋友啦！</p>\\n<h2>学校</h2>\\n<p>我目前就读于南宁市第二中学国际部。\\n已从南宁市天桃实验学校(小学),南宁二中初中部毕业</p>\\n<h2>家庭</h2>\\n<p>母亲目前在南宁市第一人民医院就职。年入50W</p>\\n<h2>社交帐号</h2>\\n<p>欢迎来以下平台关注我！</p>\\n<p><a href=\\\"https://www.douyin.com/user/MS4wLjABAAAAdIsUoRvOHRAAIJHDZ9Cm3decTF4k9QxDiZ8_GVStnmg\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">抖音</a></p>\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
